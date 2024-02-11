@@ -1,0 +1,22 @@
+source 'https://cdn.cocoapods.org/' #CDN
+source 'https://github.com/DLinkSDK/deeplink-dev-specs.git' #DLINK
+
+platform :ios, '13.0'
+
+target 'AnalyticsDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AnalyticsDemo
+  pod 'AnalyticsKit'
+
+  target 'AnalyticsDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AnalyticsDemoUITests' do
+    # Pods for testing
+  end
+
+end
