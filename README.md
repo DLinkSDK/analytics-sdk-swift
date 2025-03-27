@@ -19,8 +19,8 @@ pod 'AnalyticsKit'
 
 ## Usage
 
-### Get AppID
-Register an account at [https://console.dlink.cloud/](https://console.dlink.cloud). After creating an app on the platform, get the corresponding AccountId of the app.
+### Get AccountId and DevToken
+Register an account at [https://console.dlink.cloud/](https://console.dlink.cloud). After creating an app on the platform, get the corresponding AccountId and DevToken of the app.
 
 ### Initialization
 
@@ -28,9 +28,8 @@ Register an account at [https://console.dlink.cloud/](https://console.dlink.clo
 import AnalyticsKit
 
 // Configure Analytics
-let config = AnalyticsConfig(
-    accountId: "your_account_id"
-)
+let config = AnalyticsConfig(accountId: "your_account_id", devToken: "your_dev_token")
+
 
 // Initialize
 Analytics.setup(with: config)
