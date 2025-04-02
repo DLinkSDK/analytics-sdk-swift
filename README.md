@@ -28,7 +28,11 @@ Register an account at [https://console.dlink.cloud/](https://console.dlink.clo
 import AnalyticsKit
 
 // Configure Analytics
-let config = AnalyticsConfig(accountId: "your_account_id", devToken: "your_dev_token")
+        let config = AnalyticsConfig(
+            accountId: "your_account_id", // replace with your account id
+            devToken: "your_dev_token", // repalce with your dev token
+            cryptKey: "your_crypt_key" // pass your business crypt key
+        )
 
 
 // Initialize

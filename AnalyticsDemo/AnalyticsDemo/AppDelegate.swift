@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         // setup analytics
-        let config = AnalyticsConfig(accountId: "your_account_id", devToken: "your_dev_token")
+        let config = AnalyticsConfig(
+            accountId: "your_account_id",
+            devToken: "your_dev_token",
+            cryptKey: "your_crypt_key"
+        )
         Analytics.setup(config: config)
         // add custom params
         Analytics.addCustomParams(["custom_data": "custom_value"])
