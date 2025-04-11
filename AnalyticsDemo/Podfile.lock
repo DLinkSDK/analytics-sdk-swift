@@ -1,5 +1,5 @@
 PODS:
-  - AnalyticsKit (1.5.0):
+  - AnalyticsKit (1.6.0):
     - FingerPrint
     - ios-ntp
     - WCDB.swift
@@ -28,7 +28,7 @@ SPEC REPOS:
     - WCDBOptimizedSQLCipher
 
 SPEC CHECKSUMS:
-  AnalyticsKit: cf8f1a1f4414411f3bf7edffc94c1cf1b37a8374
+  AnalyticsKit: 0901c8693d0ad35e2f6f1768589148d15a3057f2
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   FingerPrint: a22cb55f8c0702cfad3908fe1d2a0c3914078e5a
   ios-ntp: 49a4ef0866aee5343627710c1c7de71d7c064417

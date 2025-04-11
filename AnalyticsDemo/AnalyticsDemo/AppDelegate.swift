@@ -21,6 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             cryptKey: "your_crypt_key"
         )
         Analytics.setup(config: config)
+        print("config key: \(config.cryptKey)")
+        Analytics.updateCryptKey("your_new_crypt_key")
+        let newConfig = Analytics.getAnalyticsConfig()
+        print("new config key: \(newConfig?.cryptKey)")
         // add custom params
         Analytics.addCustomParams(["custom_data": "custom_value"])
         // create data sender

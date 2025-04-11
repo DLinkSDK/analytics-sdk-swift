@@ -39,6 +39,11 @@ import AnalyticsKit
 Analytics.setup(with: config)
 ```
 
+### Update CryptKey
+```swift
+Analytics.updateCryptKey("your_new_crypt_key")
+```
+
 ### Register DataService
 ```swift
 let dataStore = DefaultDataStore() // use default data store or implement your own DataStore
